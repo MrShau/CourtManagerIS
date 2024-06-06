@@ -1,0 +1,77 @@
+#root {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat';
+}
+
+:root {
+  --dark: #151515;
+  --dark-blue: #33456B;
+  --light: #f8f9fa;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  border-color: #2b2b2b;
+  border-radius: 15px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2b2b2b;
+  border-radius: 15px;
+}
+
+.background-dark {
+  background-color: var(--dark) !important;
+  color: white;
+}
+
+.background-dark-blue {
+  background-color: var(--dark-blue) !important;
+}
+
+.background-light {
+  background-color: var(--light) !important;
+  color: black;
+}
+
+.background-transparent {
+  background-color: transparent !important;
+}
+
+.border-dark {
+  border-color: var(--dark) !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border-bottom {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.border-dark {
+  border-color: var(--dark);
+}

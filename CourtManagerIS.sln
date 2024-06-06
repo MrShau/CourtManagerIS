@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourtManagerIS.Server", "CourtManagerIS.Server\CourtManagerIS.Server.csproj", "{344E08E5-F8D1-44C5-83BA-321BA62B2E73}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "courtmanageris.client", "courtmanageris.client\courtmanageris.client.esproj", "{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{344E08E5-F8D1-44C5-83BA-321BA62B2E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344E08E5-F8D1-44C5-83BA-321BA62B2E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344E08E5-F8D1-44C5-83BA-321BA62B2E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344E08E5-F8D1-44C5-83BA-321BA62B2E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57E570C-BF9C-48E4-8CD3-E7DEC029935B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59C8E8A6-5D79-4EFF-B2BF-6AC6C8DA7376}
+	EndGlobalSection
+EndGlobal

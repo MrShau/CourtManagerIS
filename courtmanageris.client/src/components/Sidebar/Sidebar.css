@@ -1,0 +1,18 @@
+.user-image-block{
+    width: 118px;
+    height: 118px;
+}
+
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.sidebar-header {
+    flex: 0 1 auto;
+}
+
+.sidebar-content {
+    flex: 1 1 0px;
+}
